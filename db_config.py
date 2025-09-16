@@ -2,7 +2,7 @@ import mysql.connector as sqlcon
 
 mycon=sqlcon.connect(host='localhost',
                     user='root',
-                    passwd='9@5Pra524')
+                    passwd='')
 mycur=mycon.cursor()
 
 def create_db():
@@ -24,7 +24,7 @@ def create_tb():
 def insert_user_passwd():
     insert_cred="""INSERT INTO blo_cred (number,password,part_number,name)
     values
-    (9669677324,'Pr@teek524',99999,'Admin')"""
+    (9876543210,'admin',99999,'Admin')"""
     mycur.execute(insert_cred)
 
 # Revoking functions in their sequence
