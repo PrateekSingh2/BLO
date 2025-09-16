@@ -6,4 +6,16 @@ First run that db_config.py file before that, just open it in any IDE and change
 Copyright © 2023 Prateek Singh All Rights Reserved
 Designed & Developed by Prateek XII
 
+Kindly note that: Folder structure for this must be
+
+BLO/
+|-- directory/
+|    |-- Images/
+|    |    |--All images.....
+|-- BLO.py
+|-- README.txt
+|-- Terms and Condition.txt
+|-- db_config.py
+
+
 Thank you
