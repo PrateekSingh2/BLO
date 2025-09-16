@@ -23,7 +23,7 @@ root=Tk()
 root.geometry('850x600')
 root.resizable(0,0)
 root.title('BLO Desktop')
-#root.iconbitmap("E:/Python/BLO/directory/BLO_img.xbm")
+root.iconbitmap("BLO\directory\Images\BLO_img.ico")
 
 #Importing all images
 root_bg=PhotoImage(file="BLO\directory\Images\window_bg.png")
@@ -418,3 +418,4 @@ login_win()
 root.mainloop()
 
 mycon.close()
+
