@@ -14,7 +14,7 @@ translator = Translator()
 # Adding Mysql to program
 mycon=sqlcon.connect(host='localhost',
                     user='root',
-                    passwd='9@5Pra524',
+                    passwd='',
                     database='BLO')
 mycur=mycon.cursor()
 
@@ -416,4 +416,5 @@ def main_menu():
 
 login_win()
 root.mainloop()
+
 mycon.close()
